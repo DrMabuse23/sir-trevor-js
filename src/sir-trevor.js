@@ -111,6 +111,7 @@
   //= locales.js
   //= vendor
   //= extensions
+  //= clean-word.js
   //= to-html.js
   //= to-markdown.js
 

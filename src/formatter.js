@@ -6,7 +6,7 @@ SirTrevor.Formatter = (function(){
     this.initialize.apply(this, arguments);
   };
 
-  var formatOptions = ["title", "className", "cmd", "keyCode", "param", "onClick", "toMarkdown", "toHTML"];
+  var formatOptions = ["title", "className", "cmd", "keyCode", "param", "onClick", "toMarkdown", "toHTML","cleanWord","insertHTML"];
 
   _.extend(Format.prototype, {
 
@@ -31,6 +31,7 @@ SirTrevor.Formatter = (function(){
     },
 
     isActive: function() {
+        console.log(this.cmd);
       return document.queryCommandState(this.cmd);
     },
 
