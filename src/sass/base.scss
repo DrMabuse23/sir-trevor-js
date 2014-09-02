@@ -4,6 +4,7 @@
 
 @mixin sir-trevor-icons() {
   font-family: 'ST-Icons';
+//  font-family: 'OneBase';
   speak: none;
   /* Enable Ligatures */
   @include font-feature-settings("liga","dlig");

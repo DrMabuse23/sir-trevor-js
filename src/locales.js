@@ -50,6 +50,9 @@ SirTrevor.Locales = {
         },
         heading : {
             'title' : "Heading"
+        },
+        textimage:{
+            'title' : 'Text - Image'
         }
     }
 };
