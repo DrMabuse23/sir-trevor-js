@@ -6,10 +6,9 @@
   font-family: 'ST-Icons';
   speak: none;
   /* Enable Ligatures */
-  -webkit-font-feature-settings:"liga","dlig";-moz-font-feature-settings:"liga=1, dlig=1";-moz-font-feature-settings:"liga","dlig";-ms-font-feature-settings:"liga","dlig";-o-font-feature-settings:"liga","dlig";
-  font-feature-settings:"liga","dlig";
-  text-rendering:optimizeLegibility;
-    font-weight: normal;
+  @include font-feature-settings("liga","dlig");
+  text-rendering: optimizeLegibility;
+  font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
@@ -30,7 +29,7 @@
 
 .st-icon {
   @include sir-trevor-icons;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 [data-icon=bin]:hover:before {
@@ -40,18 +39,19 @@
 .st-block__inner {
 
   ::-moz-selection {
-      background: $accent-color;
-      text-shadow: none;
+    background: $accent-color;
+    text-shadow: none;
   }
 
   ::selection {
-      background: $accent-color;
-      text-shadow: none;
+    background: $accent-color;
+    text-shadow: none;
   }
 
 }
 
 .st-spinner {
-  position: absolute!important;
-  left: 50%; top: 50%;
+  position: absolute !important;
+  left: 50%;
+  top: 50%;
 }

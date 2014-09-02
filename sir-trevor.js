@@ -4,7 +4,7 @@
  * Released under the MIT license
  * www.opensource.org/licenses/MIT
  *
- * 2014-09-01
+ * 2014-09-02
  */
 
 (function ($, _){
@@ -1926,6 +1926,12 @@
    * For the full copyright and license information, please view the LICENSE
    * file that was distributed with this source code.
    */
+  /**
+   * Created by pascalbrewing on 02.09.14.
+   */
+  SirTrevor.Blocks.ImageText = (function(){
+  
+  });
   /*
     Block Quote
   */
